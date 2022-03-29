@@ -1,0 +1,75 @@
+/* Poppins - Light */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* Semi Bold */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* Poppins - Bold */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Pseudo Elements */
+:root {
+    --clr-primary: #0A19CE;
+    --clr-secondary: #5560E8;
+    --clr-light: #FFF;
+    --clr-dark: #000;
+
+    --font: 'Poppins',sans-serif;
+}
+
+
+* {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+.login {
+    width:100vw;
+    height:100vh;
+}
+
+.logo {
+    width:200px;
+    display:block;
+    padding:0 0 0 30px;
+    margin:20px 0 20px 15px;
+    border-bottom:2px solid var(--clr-primary);
+}
+
+.login h2 {
+    text-transform: uppercase;
+    font-family: var(--font);
+    text-align: center;
+    margin:0 0 20px 0;
+}
+
+
+.data input#email {
+    background-image:url('images/email-icon.png');
+    background-repeat: no-repeat;
+    text-indent: 10px;
+    width: 95%;
+    height:30px;
+    border:1px solid var(--clr-primary);
+    border-radius:10px;
+    margin:10px 0 0 0;
+    padding:5px 0 5px 0;
+    font-family: var(--font);
+    font-size:15x;
+}
+
+#email:active {
+    background-image: hidden;
+}
+
+.data label {
+    font-family:var(--font);
+    font-weight:500;
+}
