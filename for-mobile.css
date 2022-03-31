@@ -51,7 +51,7 @@
 }
 
 
-.data input#email {
+/* .data input#email {
     background-image:url('images/email-icon.png');
     background-repeat: no-repeat;
     text-indent: 10px;
@@ -63,7 +63,7 @@
     padding:5px 0 5px 0;
     font-family: var(--font);
     font-size:15x;
-}
+} */
 
 #email:active {
     background-image: hidden;
