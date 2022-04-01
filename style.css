@@ -63,7 +63,7 @@
     font-size:15px;
     font-family:var(--font);
     padding:10px 25px;
-    margin: 55px 0 0 30%;
+    margin: 55px 0 0 27%;
     border: none;
     border-radius:5px;
     cursor: pointer;
@@ -162,8 +162,8 @@
     .logo-two {
         display:block;
         width:20vw;
-        margin:30px 0 0 20%;
-        padding: 0 60px 0 78px;
+        margin:30px 0 0 18%;
+        padding: 0 50px 0 80px;
         color:var(--clr-primary);
         justify-content: center;
         border-bottom:1.5px solid var(--clr-primary);
@@ -173,13 +173,126 @@
         font-size:20px;
         font-family:var(--font);
         color:var(--clr-dark);
-        margin:20px 0 0 20px;
+        margin:20px 0 10px 10px;
         text-align: center;
     }
+
+    .form-group {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group label {
+        font-family: var(--font);
+        font-size:1rem;
+        margin: 0 53% -8px 0;
+    }
+
+    #email {
+        margin:0 0 10px 0;
+    }
+
+    #for-password {
+        margin:0 45% 15px 0;
+    }
+
+    .form-group i {
+        font-size:20px;
+        color:var(--clr-primary);
+        position: relative;
+        top:31px;
+        right:28%;
+    }
+
+    .form-group input {
+        width:60%;
+        height:40px;
+        border-radius:15px;
+        border:1px solid var(--clr-primary);
+        padding:0 10px;
+        font-size:1rem;
+        font-family: var(--font);
+        color:var(--clr-dark);
+        text-indent: 30px;
+    }
+
+    .form-group input:focus {
+        outline: none;
+        border: 1px solid var(--clr-primary);
+    }
+
+    #lock {
+        position: relative;
+        top:70px;
+    }
+
+    .form-group:nth-child(3) {
+        display: flex;
+        flex-direction: row;
+        margin:20px 30% 0 0;
+    }
+
+    .form-group:nth-child(3) input {
+        width:18px;
+        background:gray;
+        border:none;
+    }
+
+    .form-group:nth-child(3) h3 {
+        font-family: var(--font);
+        font-size: 15px;
+        font-weight:300;
+        padding: 0 0 0 20px;
+
+    }
+
+    .form-group:nth-child(4) {
+        margin:30px 0 0 0;
+    }
+
+    .form-group:nth-child(4) button {
+        width:65%;
+        font-family: var(--font);
+        font-size:1rem;
+        color:var(--clr-light);
+        text-transform: uppercase;
+        font-weight: 700;
+        background-color: var(--clr-primary);
+        border:none;
+        border-radius:5px;
+        margin:0 0 10px 0;
+        padding:10px 0;
+        cursor: pointer;
+    }
+
+    .need-password {
+        margin:0 0 0 60%;
+        text-decoration: none;
+        font-family: var(--font);
+        font-size:15px;
+        color:gray;
+        cursor: pointer;
+    }
+
+    .right-div p {
+        text-align: center;
+        font-family: var(--font);
+        font-size:15px;
+        color:var(--clr-dark);
+        margin:30px 0 0 0;
+    }
+
+    .right-div a {
+        font-style: italic;
+        color:var(--clr-primary);
+    }
+
 }
 
 /* Desktop View */
-@media all and (min-width: 1100px){
+@media all and (min-width: 1100px) {
     .container {
         max-width: 1000px;
     }

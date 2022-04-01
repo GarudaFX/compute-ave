@@ -7,7 +7,7 @@
 
     <!-- CSS Link (Exclusively for mobile :D) -->
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- Website Icon -->
     <link rel="icon" href="images/logo-icon.png" sizes="16x16">
     <title>ComputeAve</title>
@@ -25,24 +25,34 @@
             <div id="deskview-loginform" class="right-div">  
                 <div class="container">
                     <img class="logo-two" src="images/logo-blue.png">
-                    <h1>LOGIN</h1>
+                    <h1>SIGN IN</h1>
                     <div class="form-container">
                         <form action="login.php" method="POST">
                             <div class="form-group">
-                                <label for="username">Email</label>
-                                <input type="email" name="username" id="username" class="form-control" placeholder="Email">
+                                <label for="email">Email</label>
+                                <i class="fa-regular fa-circle-user"></i>
+                                <input type="email" name="username" id="email" class="form-control" placeholder="">
                             </div>
                             <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password">
+                                <i id="lock" class="fa-solid fa-lock"></i>
+                                <label id="for-password">Password</label>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox">
+                                <h3>Remember me</h3>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </div>
                         </form>
-                </div>
+                        <a class="need-password" href="#">Forget Password?</a>
+                        <p>Need an Account? <a href="#"<u>SIGNUP</u></p></p>
+                 </div>
             </div>
         </div>
     </section>
 </body>
+    <!-- Fontawesome Kit link -->
+<script src="https://kit.fontawesome.com/25913df613.js" crossorigin="anonymous"></script>
 </html>
