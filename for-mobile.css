@@ -19,7 +19,7 @@
 
 
 * {
-    overflow-x: hidden;
+    overflow: hidden;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -36,9 +36,9 @@
 }
 
 .logo {
-    width:200px;
+    width:80%;
     display:block;
-    padding:0 0 0 30px;
+    padding:0 10px 0 30px;
     margin:20px 0 20px 15px;
     border-bottom:2px solid var(--clr-primary);
 }
@@ -49,7 +49,6 @@
     text-align: center;
     margin:0 0 20px 0;
 }
-
 
 /* .data input#email {
     background-image:url('images/email-icon.png');
@@ -68,8 +67,95 @@
 #email:active {
     background-image: hidden;
 }
+.data {
+    display: flex;
+    flex-direction: column;
+}
 
-.data label {
+.data label:first-child {
     font-family:var(--font);
     font-weight:500;
+    font-size:1.1rem;
+    margin:0 0 10px 0;
+}
+
+.data label:nth-child(3) {
+    font-family:var(--font);
+    font-weight:500;
+    font-size:1.1rem;
+    margin:0 0 10px 0;
+}
+
+.data input:nth-child(2) {
+    height:30px;
+    width:98%;
+    text-indent:10px;
+    border-radius:10px;
+    margin:0 0 20px 0;
+    border:2px solid var(--clr-primary);
+}
+
+.data input:nth-child(2):focus {
+    border:2px solid var(--clr-primary);
+}
+
+.data input:nth-child(4) {  
+    height:30px;
+    width:98%;
+    text-indent: 10px;
+    border-radius:10px;
+    margin:0 0 20px 0;
+    border:2px solid var(--clr-primary);
+}
+
+.remember-me {
+    display: flex;
+    gap: 20px;
+    margin:10px 0;
+}
+
+.remember-me input {
+    width:18px;
+    height:40px;
+    background:gray;
+    border:none;
+    margin:-10px 0 0 0;
+}
+
+.remember-me h3 {
+    font-family: var(--font);
+    font-size:15px;
+    font-weight:300;
+}
+
+.btn-primary {
+    width:100%;
+    font-family: var(--font);
+    font-size:15px;
+    border:none;
+    border-radius:5px;
+    background: var(--clr-primary);
+    color:var(--clr-light);
+    padding:5px 0;
+}
+
+.forgot-password {
+    font-family: var(--font);
+    font-size:0.9rem;
+    margin:15px 0 0 50%;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.data p {
+    text-align: center;
+    font-family: var(--font);
+    font-size:0.9rem;
+    font-weight:300;
+    margin:90px 0 10px 0;
+    color:var(--clr-primary);
+}
+
+.data a {
+    color:var(--clr-dark);
 }
