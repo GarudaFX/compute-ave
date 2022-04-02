@@ -162,8 +162,8 @@
     .logo-two {
         display:block;
         width:20vw;
-        margin:30px 0 0 18%;
-        padding: 0 50px 0 80px;
+        margin:30px 0 0 14%;
+        padding: 0 30px 0 70px;
         color:var(--clr-primary);
         justify-content: center;
         border-bottom:1.5px solid var(--clr-primary);
@@ -268,7 +268,7 @@
     }
 
     .need-password {
-        margin:0 0 0 60%;
+        margin:0 0 0 50%;
         text-decoration: none;
         font-family: var(--font);
         font-size:15px;
@@ -281,7 +281,7 @@
         font-family: var(--font);
         font-size:15px;
         color:var(--clr-dark);
-        margin:30px 0 0 0;
+        margin:50px 0 0 0;
     }
 
     .right-div a {
@@ -295,6 +295,8 @@
 @media all and (min-width: 1100px) {
     .container {
         max-width: 1000px;
+        padding:5px 0 0 0;
+        overflow: hidden;
     }
 
     .login-page {
@@ -306,7 +308,54 @@
         width:100%;
     }
 
+    .left-div img:first-child {
+        width: 50%;
+        justify-content: center;
+        margin:20% 0 0 20%;
+    }
+    
+    .left-div img:nth-child(2) {
+        width: 305px;
+        justify-content: center;
+        margin:5% 0 3% 25%;
+    }
+
+    .left-div p {
+        text-align: center;
+        width:55%;
+        margin: 0 0 0 20%;
+        font-size:18px;
+    }
+
     .right-div {
         width:70%;
+    }
+
+    .logo-two {
+        width:35%;
+        margin:30px 0 0 20%;
+        padding:0 70px 0 100px;
+    }
+
+    #for-password {
+        margin:0 0 12px -49%;
+    }
+
+    .form-group:nth-child(3) {
+        margin:20px 0 0 -40%;
+    }
+
+    .form-group:nth-child(3) input {
+        cursor: pointer;
+    }
+
+    .form-group:nth-child(4) button {
+        width:62%;
+        margin:0 0 20px 0;
+    }
+
+    .need-password {
+        margin:0 0 0 62%;
+        font-style: normal;
     }
 }
