@@ -159,3 +159,7 @@
 .data a {
     color:var(--clr-dark);
 }
+
+@media all and (min-width: 768px) {
+    
+}
