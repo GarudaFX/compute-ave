@@ -1,0 +1,79 @@
+/* Poppins - Light */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* Poppins - Bold */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+//Colors
+$primary-color: #0A19CE;
+$secondary-color: #5560E8;
+$light-color: #FFF;
+$dark-color: #000;
+
+
+body {
+    background-color: $light-color;
+
+    .container {
+        margin:0 40px;
+    }
+    nav{ 
+        width: 100%;
+
+        .logo {
+            width: 60%;
+            padding: 10px 0;
+        }
+    }
+
+    .home {
+        width:100vw;
+        height:100vh;
+        background-image:url('images/blue-eclipse.png');
+        background-repeat: no-repeat;
+
+        h1 {
+            color: $primary-color;
+            font-family: 'Poppins',sans-serif;
+            font-size:35px;
+            margin: 0;
+        }
+
+        p {
+            font-family: 'Poppins',sans-serif;
+            font-size: 20px;
+            line-height: 25px;
+            color: #3A3A3A;
+
+            span {
+                color: $primary-color;
+            }
+        }
+
+        button {
+            width:100%;
+            height: 50px;
+            background-color:$primary-color;
+            border-radius:8px;
+            border: none;
+
+            a {
+                font-family: 'Poppins',sans-serif;
+                text-decoration: none;
+                font-size:20px;
+                font-weight:700;
+                color:$light-color;
+            }
+        }
+        .partners {
+            display: flex;
+            flex-direction: space-between;
+            margin: 80px 0;
+            
+            h5 {
+                font-family: 'Poppins',sans-serif;
+                font-size:10px;
+                color: #6e6e6e;    
+            }
+        }
+    }
+}
